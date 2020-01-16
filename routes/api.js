@@ -49,7 +49,7 @@ module.exports = function (app) {
     .post(function (req, res){
       var title = req.body.title;
       //response will contain new book object including atleast _id and title
-      if(!title){ return res. }
+      if(!title){ return res.type('text').send('No title was Added'); }
 
       MongoClient.connect(MONGODB_CONNECTION_STRING, (err, dbo)=>{
         if(err) return console.log(err);
