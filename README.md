@@ -14,8 +14,7 @@ https://boilerplate-project-library.ahmadali5.repl.co/
         <li><b>delete</b> /api/books/{_id} to delete a book from the collection. Returned will be 'delete successful' if successful.</li>
         <li>try to request a book that doesn't exist I will get a 'no book exists' message.</li>
         <li>send a <b>delete</b> request to /api/books to delete all books in the database. Returned will be 'complete delete successful' if successful.</li>
-       
-      </ol>
+</ol>
 </p>
       <br>
       <img src='https://cdn.gomix.com/d7932c52-287f-4dae-b175-631fef453000%2FScreen%20Shot%202016-12-16%20at%201.35.56%20AM.png' />
